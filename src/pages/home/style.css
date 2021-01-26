@@ -1,0 +1,56 @@
+.container-jumbotron{
+    margin: auto;
+}
+
+.jumbotron { 
+  height: 100px;
+  padding: 50px;
+  margin-left: auto;
+  background-color: #050B22;
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.link-button {
+   color: aqua;
+   padding: 10px;
+   border: 1px aqua solid;
+   text-decoration: none;
+}
+
+.container-card {
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.col-3 {
+     width: 33.3%;
+     float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card-body {
+    padding: 2px 16px;
+  }
+
+.card-img{
+      width: 100%;
+      height: 135px;
+  }
